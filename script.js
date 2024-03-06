@@ -66,7 +66,7 @@ const rollDice = function () {
     // 2. Display Dice
     diceEl.classList.remove('hidden');
     // Manipulating the src style
-    diceEl.src = `dice-${dice}.png`;
+    diceEl.src = `images/dice-${dice}.png`;
     console.log(dice);
 
     //3. Check for rolled 1: if true, swith to the next player
